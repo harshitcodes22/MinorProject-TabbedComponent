@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    margin-top: 2rem;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    margin-right: 3rem;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--1 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p {
+    padding-top: 3rem;
+}
+
+.active {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
